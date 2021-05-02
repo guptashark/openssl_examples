@@ -10,3 +10,6 @@ target_link_libraries(genrsa ssl crypto)
 
 add_executable(x509_name_example x509_name_example.c)
 target_link_libraries(x509_name_example ssl crypto)
+
+add_executable(x509_csr x509_csr.c)
+target_link_libraries(x509_csr ssl crypto)
